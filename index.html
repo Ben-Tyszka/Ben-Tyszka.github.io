@@ -30,7 +30,9 @@
 	<meta content="mstile-310x150.png" name="msapplication-wide310x150logo">
 	<meta content="mstile-310x310.png" name="msapplication-square310x310logo">
   <!--Resources-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 	<link href="index.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </head>
 <body>
 	<div id="page1">
@@ -38,27 +40,34 @@
 		<small>My Projects</small>
     </h1>
     <div id="projectContainer">
-      <div id="proj1" class="project">
+      <div id="proj1" class="project" href="https://github.com/Ben-Tyszka/NavCom">
         <h1>NavCom</h1>
         <small>An android autopilot app for the DJI Phantom Drones.</small>
       </div>
-      <div id="proj2" class="project">
+      <div id="proj2" class="project" href="https://github.com/Ben-Tyszka/SmartPass">
         <h1>SmartPass</h1>
-        <small>A small Android app that generates easy to remember, yet secure passwords.</small>
+        <small>A small android app that generates easy to remember, yet secure passwords.</small>
       </div>
-      <div id="proj3" class="project">
+      <div id="proj3" class="project" href="https://github.com/Ben-Tyszka/Geodesics">
         <h1>Geodesics</h1>
         <small>A physics based Unity3D game.</small>
       </div>
-      <div id="proj4" class="project">
+      <div id="proj4" class="project" href="https://github.com/Ben-Tyszka/AAJuice">
         <h1>American Apple Juice</h1>
         <small>A node.js site for a project in one of my business classes.</small>
       </div>
-      <div id="proj5" class="project">
+      <div id="proj5" class="project" href="https://github.com/Ben-Tyszka/BenBlock">
         <h1>BenBlock</h1>
         <small>A C++/OpenGL game that I have been working on recently.</small>
       </div>
     </div>
 	</div>
 </body>
+<script type="text/javascript">
+$(function(){
+  $(".project").on("click", function(){
+    window.open($(this).attr("href"), '_blank');
+  });
+});
+</script>
 </html>
