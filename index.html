@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-	<title>Benjamin Tyszka - Projects</title><!-- Mobile Compat -->
+	<title>Benjamin Tyszka - Projects</title>
 	<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
 	<meta charset="utf-8">
 	<meta content="IE-edge,chrome=1" http-equiv="X-UA-Compatible">
 	<meta content="yes" name="apple-mobile-web-app-capable">
 	<meta content="#19ffd1" name="apple-mobile-web-app-status-bar-style">
 	<meta content="#19ffd1" name="theme-color">
-  <!-- Icons -->
+	<!-- Icons -->
 	<link href="apple-touch-icon-57x57.png" rel="apple-touch-icon-precomposed" sizes="57x57">
 	<link href="apple-touch-icon-114x114.png" rel="apple-touch-icon-precomposed" sizes="114x114">
 	<link href="apple-touch-icon-72x72.png" rel="apple-touch-icon-precomposed" sizes="72x72">
@@ -22,62 +23,134 @@
 	<link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
 	<link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
 	<link href="favicon-128.png" rel="icon" sizes="128x128" type="image/png">
-	<meta content="&nbsp;" name="application-name">
+	<meta content="Benjamin Tyszka - Projects" name="application-name">
 	<meta content="#19ffd1" name="msapplication-TileColor">
 	<meta content="mstile-144x144.png" name="msapplication-TileImage">
 	<meta content="mstile-70x70.png" name="msapplication-square70x70logo">
 	<meta content="mstile-150x150.png" name="msapplication-square150x150logo">
 	<meta content="mstile-310x150.png" name="msapplication-wide310x150logo">
 	<meta content="mstile-310x310.png" name="msapplication-square310x310logo">
-  <!--Resources-->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-  <link href="index.css" rel="stylesheet" type="text/css">
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109033789-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<link href="index.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109033789-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-  gtag('config', 'UA-109033789-1');
-</script>
+		gtag('config', 'UA-109033789-1');
+	</script>
 </head>
+
 <body>
-	<div id="page1">
-		<h1>Benjamin Tyszka<br>
-		<small>My Projects</small>
-    </h1>
-    <div id="projectContainer">
-      <div id="proj1" class="project" href="https://github.com/Ben-Tyszka/NavCom">
-        <h1>NavCom</h1>
-        <small>An android autopilot app for the DJI Phantom Drones.</small>
-      </div>
-      <div id="proj2" class="project" href="https://github.com/Ben-Tyszka/SmartPass">
-        <h1>SmartPass</h1>
-        <small>A small android app that generates easy to remember, yet secure passwords.</small>
-      </div>
-      <div id="proj3" class="project" href="https://github.com/Ben-Tyszka/Geodesics">
-        <h1>Geodesics</h1>
-        <small>A physics based Unity3D game.</small>
-      </div>
-      <div id="proj4" class="project" href="https://github.com/Ben-Tyszka/AAJuice">
-        <h1>American Apple Juice</h1>
-        <small>A node.js site for a project in one of my business classes.</small>
-      </div>
-      <div id="proj5" class="project" href="https://github.com/Ben-Tyszka/BenBlock">
-        <h1>BenBlock</h1>
-        <small>A C++/OpenGL game that I have been working on recently.</small>
-      </div>
-    </div>
-    <h2>View all repos <a href="https://github.com/Ben-Tyszka" target="_blank">here</a><br><small>All projects are my original work.</small></h2>
+	<div class="container">
+		<h1 class="thin center-align">Ben Tyszka</h1>
+		<h4 class="thin center-align">My projects</h4>
+		<div class="row">
+			<div class="col s12 m6">
+				<div class="card">
+					<div class="card-content">
+						<span class="card-title">NavCom</span>
+						<p>
+							An autopilot app for DJI Phantom drones written in Java for Android. Uses some of DJI's example API code combined with my
+							own for what is my favorite project to date.
+						</p>
+					</div>
+					<div class="card sticky-action">
+						<a class="waves-effect waves-teal btn-flat blue-text" href="https://github.com/Ben-Tyszka/NavCom" target="_blank">View on Github</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m6">
+				<div class="card">
+					<div class="card-content">
+						<span class="card-title">Geodesics</span>
+						<p>
+							A Unity3d/C# game I made that is theoretically compatible with any platform Unity supports. You are an object in space that
+							must pull in enough surrounding matter to become larger and larger. Relies heavily on Unity's physics engine which
+							was pretty challenging to program.
+						</p>
+					</div>
+					<div class="card sticky-action">
+						<a class="waves-effect waves-teal btn-flat blue-text" href="https://github.com/Ben-Tyszka/Geodesics" target="_blank">View on Github</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m6">
+				<div class="card">
+					<div class="card-content">
+						<span class="card-title">BenBlock</span>
+						<p>
+							A 3D C++/OpenGL test program. This was fairly difficult to program because I wanted to make my own game engine in C/C++.
+							The math for 3d movement and rotation was definitely a challenge but it was worth it in the end. My engine uses OpenGL
+							3.3.x for an efficient and modern experience.
+						</p>
+					</div>
+					<div class="card sticky-action">
+						<a class="waves-effect waves-teal btn-flat blue-text" href="https://github.com/Ben-Tyszka/BenBlock" target="_blank">View on Github</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m6">
+				<div class="card">
+					<div class="card-content">
+						<span class="card-title">SmartPass</span>
+						<p>
+							A password creation app for Android. The app takes information about you and creates long yet easy to remember passwords.
+							Compared to some of my other projects this app was not particularly hard to make. I uploaded it to the Google Play
+							Store, see the link below.
+						</p>
+					</div>
+					<div class="card sticky-action">
+						<a class="waves-effect waves-teal btn-flat blue-text" href="https://github.com/Ben-Tyszka/SmartPass" target="_blank">View on Github</a>
+						<a class="waves-effect waves-teal btn-flat blue-text" href="https://play.google.com/store/apps/details?id=tyszka.io.smartpass"
+						 target="_blank">View on Google Play</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m6">
+				<div class="card">
+					<div class="card-content">
+						<span class="card-title">AAJuice</span>
+						<p>
+							A Node.JS site I made for a project in my DECA business class. We had to make a business plan for an apple juice company
+							and this is the website I made for it. I actually published the site to the internet for a little while so I could
+							show it off while we presented to the whole class (we got the best score in the class, thanks in part to this). The
+							site probably didn't have to be NodeJS based and I could have gotten away with a static HTML file, but I wanted to
+							play around with NodeJS stuff.
+						</p>
+					</div>
+					<div class="card sticky-action">
+						<a class="waves-effect waves-teal btn-flat blue-text" href="https://github.com/Ben-Tyszka/AAJuice" target="_blank">View on Github</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m6">
+				<div class="card">
+					<div class="card-content">
+						<span class="card-title">LifeBoard</span>
+						<p>
+							This is the project I am currently working on with some of my friends. We wanted to make a mobile app that allows you to
+							do things like create reminders, make to do lists, show an overview of all your social media accounts, and some other
+							productivity/organizational things. The idea is that it can be used to show an overview of your whole
+							<i>life</i>, hence the name
+							<i>LifeBoard</i>. The backend server is a REST API written in C# with ASP.NET Core 2.0 and its EntityFramework technology.
+							The client app is written in Google's Dart programing language with the cross platform Flutter app framework, as far
+							as I can tell very few people use this framework which is kind of why I like it as I want a bit of a challenge. This
+							project is certainly going to be very large and fairly complicated as I want to deploy the API to either AWS or Azure.
+						</p>
+					</div>
+					<div class="card sticky-action">
+						<a class="waves-effect waves-teal btn-flat blue-text" href="https://github.com/Ben-Tyszka/LifeBoard-Client-App" target="_blank">View app on Github</a>
+						<a class="waves-effect waves-teal btn-flat blue-text" href="https://github.com/Ben-Tyszka/LifeBoardAPI" target="_blank">View backend on Github</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
-<script type="text/javascript">
-$(function(){
-  $(".project").on("click", function(){
-    window.open($(this).attr("href"), '_blank');
-  });
-});
-</script>
+
 </html>

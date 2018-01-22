@@ -1,56 +1,5 @@
-html, body{
-  width: 100%;
-  height: 100%;
-  padding: 0px;
-  margin: 0;
-}
-*{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-}
 body{
-  background-color: rgb(173, 204, 255);
-}
-h1{
-  text-align: center;
-}
-@media screen and (min-width: 500px) {
-  h1{
-    font-size: 3em;
-  }
-}
-@media screen and (max-width: 500px) {
-  h1{
-    font-size: 2em;
-  }
-}
-h1 small{
-  color: #333;
-}
-h2{
-  text-align: center;
-}
-#projectContainer{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  text-align: center;
-  left:50%;
-}
-#projectContainer > div {
-  padding: 0px;
-  margin: 0;
-  display:inline-block;
-  margin: 0 auto;
-  margin-top:25px;
-  margin-bottom:25px;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  text-align: center;
-  padding: 8px;
-  background-color: rgb(145, 233, 255);
+	background: #43cea2;
+	background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+	background: linear-gradient(to right, #185a9d, #43cea2);
 }
