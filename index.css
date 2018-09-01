@@ -1,5 +1,11 @@
-body{
-	background: #43cea2;
-	background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
-	background: linear-gradient(to right, #185a9d, #43cea2);
+.navbar:not(.top-nav-collapse) {
+    background: #ee0979;
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+}
+
+.intro-2 {
+    background: #ee0979;
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    background: linear-gradient(to right, #ff6a00, #ee0979);
 }

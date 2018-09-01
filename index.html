@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" class="full-height">
 
 <head>
 	<title>Benjamin Tyszka - Projects</title>
@@ -7,35 +7,21 @@
 	<meta charset="utf-8">
 	<meta content="IE-edge,chrome=1" http-equiv="X-UA-Compatible">
 	<meta content="yes" name="apple-mobile-web-app-capable">
-	<meta content="#19ffd1" name="apple-mobile-web-app-status-bar-style">
-	<meta content="#19ffd1" name="theme-color">
-	<!-- Icons -->
-	<link href="apple-touch-icon-57x57.png" rel="apple-touch-icon-precomposed" sizes="57x57">
-	<link href="apple-touch-icon-114x114.png" rel="apple-touch-icon-precomposed" sizes="114x114">
-	<link href="apple-touch-icon-72x72.png" rel="apple-touch-icon-precomposed" sizes="72x72">
-	<link href="apple-touch-icon-144x144.png" rel="apple-touch-icon-precomposed" sizes="144x144">
-	<link href="apple-touch-icon-60x60.png" rel="apple-touch-icon-precomposed" sizes="60x60">
-	<link href="apple-touch-icon-120x120.png" rel="apple-touch-icon-precomposed" sizes="120x120">
-	<link href="apple-touch-icon-76x76.png" rel="apple-touch-icon-precomposed" sizes="76x76">
-	<link href="apple-touch-icon-152x152.png" rel="apple-touch-icon-precomposed" sizes="152x152">
-	<link href="favicon-196x196.png" rel="icon" sizes="196x196" type="image/png">
-	<link href="favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
-	<link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
-	<link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
-	<link href="favicon-128.png" rel="icon" sizes="128x128" type="image/png">
+	<meta content="#ee0979" name="apple-mobile-web-app-status-bar-style">
+	<meta content="#ee0979" name="theme-color">
+	<meta content="#ee0979" name="msapplication-TileColor">
 	<meta content="Benjamin Tyszka - Projects" name="application-name">
-	<meta content="#19ffd1" name="msapplication-TileColor">
-	<meta content="mstile-144x144.png" name="msapplication-TileImage">
-	<meta content="mstile-70x70.png" name="msapplication-square70x70logo">
-	<meta content="mstile-150x150.png" name="msapplication-square150x150logo">
-	<meta content="mstile-310x150.png" name="msapplication-wide310x150logo">
-	<meta content="mstile-310x310.png" name="msapplication-square310x310logo">
 	<link href="index.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-	 crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/css/mdb.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/js/mdb.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109033789-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -44,142 +30,66 @@
 
 		gtag('config', 'UA-109033789-1');
 	</script>
+	<script>
+		new WOW().init();
+	</script>
 </head>
 
 <body>
-	<div class="container">
-		<h1 class="thin center-align">Ben Tyszka</h1>
-		<h4 class="thin center-align">My projects</h4>
-		<div class="row">
-			<div class="col s12 m6">
-				<div class="card">
-					<div class="card-content">
-						<span class="card-title">NavCom</span>
-						<p>
-							An autopilot app for DJI Phantom drones written in Java for Android. Uses some of DJI's example API code combined with my
-							own for what is my favorite project to date.
-						</p>
-					</div>
-					<div class="card sticky-action">
-						<a class="waves-effect waves-teal btn-flat blue-text" href="https://github.com/Ben-Tyszka/NavCom" target="_blank">View on Github</a>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+			<a class="navbar-brand" href="#">Benjamin Tyszka</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+			 aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="basicExampleNav">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home
+							<span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+				<a href="https://github.com/Ben-Tyszka" target="_blank">
+					<i class="fa fa-github fa-2x white-text" aria-hidden="true"></i>
+				</a>
+			</div>
+		</nav>
+		<section class="view intro-2 hm-gradient">
+			<div class="full-bg-img">
+				<div class="container flex-center">
+					<div class="row flex-center mt-3">
+						<div class="col-md-6 text-center margins">
+							<div class="white-text">
+								<div class="avatar mx-auto wow fadeInRight row flex-center pt-5 mt-3" ata-wow-delay="0.34s">
+									<img src="newProfile.jpg" class="rounded-circle">
+								</div>
+								<h1 class="h1-responsive wow fadeInRight" data-wow-delay="0.34s">Benjamin Tyszka</h1>
+								<hr class="hr-light wow fadeInLeft" data-wow-delay="0.34s">
+								<h6 class="wow fadeInLeft" data-wow-delay="0.34s">UConn Engineering student. I am really into web development and
+									other Computer sciencey things. Currently exploring Vue, Kotlin and Flutter</h6>
+								<br>
+								<a id="projectButton" class="btn btn-outline-white wow fadeInLeft" data-wow-delay="0.34s">My projects</a>
+								<a class="btn btn-git btn-outline-white wow fadeInLeft" href="https://github.com/Ben-Tyszka" target="_blank" data-wow-delay="0.34s"><i
+									 class="fa fa-github pr-1"></i>
+									Github</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col s12 m6">
-				<div class="card">
-					<div class="card-content">
-						<span class="card-title">Geodesics</span>
-						<p>
-							A Unity3d/C# game I made that is theoretically compatible with any platform Unity supports. You are an object in space that
-							must pull in enough surrounding matter to become larger and larger. Relies heavily on Unity's physics engine which
-							was pretty challenging to program.
-						</p>
-					</div>
-					<div class="card sticky-action">
-						<a class="waves-effect waves-teal btn-flat blue-text" href="https://github.com/Ben-Tyszka/Geodesics" target="_blank">View on Github</a>
-					</div>
-				</div>
-			</div>
-			<div class="col s12 m6">
-				<div class="card">
-					<div class="card-content">
-						<span class="card-title">BenBlock</span>
-						<p>
-							A 3D C++/OpenGL test program. This was fairly difficult to program because I wanted to make my own game engine in C/C++.
-							The math for 3d movement and rotation was definitely a challenge but it was worth it in the end. My engine uses OpenGL
-							3.3.x for an efficient and modern experience.
-						</p>
-					</div>
-					<div class="card sticky-action">
-						<a class="waves-effect waves-teal btn-flat blue-text" href="https://github.com/Ben-Tyszka/BenBlock" target="_blank">View on Github</a>
-					</div>
-				</div>
-			</div>
-			<div class="col s12 m6">
-				<div class="card">
-					<div class="card-content">
-						<span class="card-title">SmartPass</span>
-						<p>
-							A password creation app for Android. The app takes information about you and creates long yet easy to remember passwords.
-							Compared to some of my other projects this app was not particularly hard to make. I uploaded it to the Google Play
-							Store, see the link below.
-						</p>
-					</div>
-					<div class="card sticky-action">
-						<a class="waves-effect waves-teal btn-flat blue-text" href="https://github.com/Ben-Tyszka/SmartPass" target="_blank">View on Github</a>
-						<a class="waves-effect waves-teal btn-flat blue-text" href="https://play.google.com/store/apps/details?id=tyszka.io.smartpass"
-						 target="_blank">View on Google Play</a>
-					</div>
-				</div>
-			</div>
-			<div class="col s12 m6">
-				<div class="card">
-					<div class="card-content">
-						<span class="card-title">AAJuice</span>
-						<p>
-							A Node.JS site I made for a project in my DECA business class. We had to make a business plan for an apple juice company
-							and this is the website I made for it. I actually published the site to the internet for a little while so I could
-							show it off while we presented to the whole class (we got the best score in the class, thanks in part to this). The
-							site probably didn't have to be NodeJS based and I could have gotten away with a static HTML file, but I wanted to
-							play around with NodeJS stuff.
-						</p>
-					</div>
-					<div class="card sticky-action">
-						<a class="waves-effect waves-teal btn-flat blue-text" href="https://github.com/Ben-Tyszka/AAJuice" target="_blank">View on Github</a>
-					</div>
-				</div>
-			</div>
-			<div class="col s12 m6">
-				<div class="card">
-					<div class="card-content">
-						<span class="card-title">LifeBoard</span>
-						<p>
-							This is the project I am currently working on with some of my friends. We wanted to make a mobile app that allows you to
-							do things like create reminders, make to do lists, show an overview of all your social media accounts, and some other
-							productivity/organizational things. The idea is that it can be used to show an overview of your whole
-							<i>life</i>, hence the name
-							<i>LifeBoard</i>. The backend server is a REST API written in C# with ASP.NET Core 2.0 and its EntityFramework technology.
-							The client app is written in Google's Dart programing language with the cross platform Flutter app framework, as far
-							as I can tell very few people use this framework which is kind of why I like it as I want a bit of a challenge. This
-							project is certainly going to be very large and fairly complicated as I want to deploy the API to either AWS or Azure.
-						</p>
-					</div>
-					<div class="card sticky-action">
-						<a class="waves-effect waves-teal btn-flat blue-text" href="https://github.com/Ben-Tyszka/LifeBoard-Client-App" target="_blank">View app on Github</a>
-						<a class="waves-effect waves-teal btn-flat blue-text" href="https://github.com/Ben-Tyszka/LifeBoardAPI" target="_blank">View backend on Github</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<footer class="page-footer cyan darken-2">
-		<div class="container">
-			<div class="row">
-				<div class="col l6 s12">
-					<div class="col s2">
-						<img src="profile.jpeg" alt="" class="circle responsive-img">
-					</div>
-					<h5 class="white-text thin">Benjamin Tyszka</h5>
-					<p class="grey-text text-lighten-4">Connecticut, USA</p>
-					<p class="grey-text text-lighten-4">Contact:
-						<a href="mailto:benjamintyszka@gmail.com" class="indigo-text text-darken-4">here</a>
-					</p>
-				</div>
-				<div class="col l4 offset-l2 s12">
-					<ul>
-						<li>
-							<a class="grey-text text-lighten-3" href="https://github.com/Ben-Tyszka" target="_blank">My Github</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="footer-copyright">
-			<div class="container">
-				© 2018 Benjamin Tyszka. All rights reserved.
-			</div>
-		</div>
-	</footer>
+		</section>
+	</header>
 </body>
 
 </html>
